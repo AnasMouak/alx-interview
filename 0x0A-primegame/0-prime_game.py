@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""Prime Game"""
 
 
 def sieve_of_eratosthenes(n):
@@ -13,6 +14,7 @@ def sieve_of_eratosthenes(n):
 
 
 def isWinner(x, nums):
+    """Return: name of the player that won the most rounds"""
     if x < 1 or not nums:
         return None
 
